@@ -26,12 +26,12 @@ hours_per_day = {
 
 # Learning Outcomes (RA) and their planned hours
 learning_outcomes = {
-    "LO1": 20,
-    "LO2": 20,
-    "LO3": 20,
-    "LO4": 20,
-    "LO5": 20,
-    "LO6": 19
+    "RA1": 20,
+    "RA2": 20,
+    "RA3": 20,
+    "RA4": 20,
+    "RA5": 20,
+    "RA6": 19
 }
 
 # -------------------------
@@ -112,7 +112,7 @@ for lo, lo_hours in learning_outcomes.items():
 # SHOW RESULT
 # -------------------------
 
-print(f"{'LO':<5} {'Start':<12} {'End':<12} {'LO Hours':<12} {'Accumulated':<12} {'Days':<6} {'Weeks':<8}")
+print(f"{'RA':<5} {'Start':<12} {'End':<12} {'LO Hours':<12} {'Accumulated':<12} {'Days':<6} {'Weeks':<8}")
 print("-" * 90)
 for lo, start, end, hours_completed, accumulated, days, weeks in results:
     print(f"{lo:<5} {start.strftime('%d/%m/%Y'):<12} {end.strftime('%d/%m/%Y'):<12} "
